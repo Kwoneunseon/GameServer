@@ -1,0 +1,3 @@
+﻿  pch.cpp
+  CorePch.cpp
+  ServerCore.vcxproj -> F:\c++\GameServer\Libraries\Debug\ServerCore.lib
