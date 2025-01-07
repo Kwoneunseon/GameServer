@@ -4,3 +4,6 @@
 *.pdb
 *.log
 *.ilk
+
+
+GameServer/x64/Debug/GameServer.tlog/
