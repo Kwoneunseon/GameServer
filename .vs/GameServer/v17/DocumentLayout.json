@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\c\u002B\u002B\\GameServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|F:\\c\u002B\u002B\\GameServer\\GameServer\\GameServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|solutionrelative:GameServer\\GameServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|solutionrelative:GameServer\\UserManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|solutionrelative:GameServer\\AccountManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EA8EA8-5BEF-4316-AAB5-7D3F6F17A9EF}|ServerCore\\ServerCore.vcxproj|F:\\c\u002B\u002B\\GameServer\\ServerCore\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46EA8EA8-5BEF-4316-AAB5-7D3F6F17A9EF}|ServerCore\\ServerCore.vcxproj|solutionrelative:ServerCore\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|solutionrelative:GameServer\\AccountManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{01BA4B51-28AC-4065-8742-21A9DB03E943}|GameServer\\GameServer.vcxproj|solutionrelative:GameServer\\UserManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 249,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\ServerCore\\pch.cpp",
+              "RelativeDocumentMoniker": "ServerCore\\pch.cpp",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\ServerCore\\pch.cpp",
+              "RelativeToolTip": "ServerCore\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-07T14:17:24.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountManager.h",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.h",
+              "RelativeDocumentMoniker": "GameServer\\AccountManager.h",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.h",
+              "RelativeToolTip": "GameServer\\AccountManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-07T13:45:04.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountManager.cpp",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.cpp",
+              "RelativeDocumentMoniker": "GameServer\\AccountManager.cpp",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\GameServer\\AccountManager.cpp",
+              "RelativeToolTip": "GameServer\\AccountManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-07T13:45:04.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserManager.h",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.h",
+              "RelativeDocumentMoniker": "GameServer\\UserManager.h",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.h",
+              "RelativeToolTip": "GameServer\\UserManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-07T13:45:04.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManager.cpp",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.cpp",
+              "RelativeDocumentMoniker": "GameServer\\UserManager.cpp",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\GameServer\\UserManager.cpp",
+              "RelativeToolTip": "GameServer\\UserManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-07T13:45:04.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameServer.cpp",
+              "DocumentMoniker": "F:\\c\u002B\u002B\\GameServer\\GameServer\\GameServer.cpp",
+              "RelativeDocumentMoniker": "GameServer\\GameServer.cpp",
+              "ToolTip": "F:\\c\u002B\u002B\\GameServer\\GameServer\\GameServer.cpp",
+              "RelativeToolTip": "GameServer\\GameServer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T14:08:45.16Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

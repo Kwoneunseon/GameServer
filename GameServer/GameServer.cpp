@@ -3,30 +3,35 @@
 #include "Corepch.h"
 
 #include <thread>
+#include <mutex>
 
-void HelloThread()
-{
-	cout << "Hello Thread " << endl;
-}
+mutex m;
 
-void HelloThread_2(int32 num)
+template<typename T>
+class LockGuard
 {
-	cout << num << endl;
-}
+public:
+	LockGuard(T& m)
+	{
+		_mutex = &m;
+		_mutex->lock();
+	}
+	~LockGuard()
+	{
+		_mutex->unlock();
+	}
+private:
+	T* _mutex;
+};
+
 
 int main()
 {
-	vector<std::thread> v;
-
-	for (int32 i = 0; i < 10; i++)
+	for (int32 i = 0; i < 10000; i++)
 	{
-		v.push_back(std::thread(HelloThread_2, i));
-	}
+		LockGuard<std::mutex> lockGuard(m);
 
-	for (int32 i = 0; i < 10; i++)
-	{
-		if (v[i].joinable())
-			v[i].join();
+		std::cout << i;
 	}
 
 }
