@@ -3,41 +3,38 @@
 #include "Corepch.h"
 
 #include <thread>
+#include <atomic>
 #include <mutex>
 
-mutex m;
+#include "AccountManager.h"
+#include "UserManager.h"
 
-template<typename T>
-class LockGuard
+void func1()
 {
-public:
-	LockGuard(T& m)
+	for (int32 i = 0; i < 100; i++)
 	{
-		_mutex = &m;
-		_mutex->lock();
+		AccountManager::Instance()->ProcessLogin();
 	}
-	~LockGuard()
+}
+
+void func2()
+{
+	for (int32 i = 0; i < 100; i++)
 	{
-		_mutex->unlock();
+		UserManager::Instance() ->ProcessSave();
 	}
-private:
-	T* _mutex;
-};
+}
 
 
 int main()
 {
-	for (int32 i = 0; i < 10000; i++)
-	{
-		//std::lock_guard<std::mutex> lockGuard(m);
+	std::thread t1(func1);
+	std::thread t2(func2);
 
-		// 당장 lock을 잠그지 않고, 인터페이스만 생성
-		std::unique_lock<std::mutex> uniqueLock(m, std::defer_lock);
+	t1.join();
+	t2.join();
 
-		// 잠기는 시점을 설정 가능 -> lock_guard와 차이점.
-		uniqueLock.lock();
+	std::cout << "Jobs Done" << endl;
 
-		std::cout << i;
-	}
-
+	return 0;
 }
